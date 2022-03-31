@@ -3,6 +3,6 @@ import MyInput from "./MyInput";
 
 
 export default [
-    MyButton,
-    MyInput
+    MyInput,
+    MyButton
 ]
