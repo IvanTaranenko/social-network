@@ -19,9 +19,9 @@
         "sass-loader": "^11.0.1",
         "vue": "^3.2.11",
         "vue-loader": "^16.6.0"
-
     },
     "dependencies": {
-        "vue": "^3.2.31"
+        "vue": "^3.2.31",
+        "vue-router": "^4.0.14"
     }
 }
