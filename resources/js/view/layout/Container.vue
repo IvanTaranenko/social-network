@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style  lang="scss">
 .container {
     max-width: 120rem;
     margin: 8rem auto;

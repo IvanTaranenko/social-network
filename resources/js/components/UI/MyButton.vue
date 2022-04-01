@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style  lang="scss">
 
 .btn {
     background-color: var(--color-primary-light);
