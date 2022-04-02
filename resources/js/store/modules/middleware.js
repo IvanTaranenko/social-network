@@ -1,30 +1,30 @@
 const state = {
-    user : {
-        loggedIn:false,
-        isSubscribes:false
+    user: {
+        loggedIn: false,
+        isSubscribed: false,
+        token: localStorage.getItem('token') || ''
     },
-    token:!localStorage.getItem('token' || '' )
+
 }
+
 const actions = {
 
 }
+
 const mutations = {
 
 }
+
 const getters = {
-    auth(state){
+    auth(state) {
         return state.user
     },
-    loggedIn(state){
-        return state.token == null
-    }
 }
 
-
 export default {
-    namespaced:false,
+    namespaced: false,
     state,
+    getters,
     actions,
-    mutations,
-    getters
+    mutations
 }

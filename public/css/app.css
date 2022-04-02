@@ -23,6 +23,7 @@ a {
 }
 
 body {
+  padding-top: 3rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
