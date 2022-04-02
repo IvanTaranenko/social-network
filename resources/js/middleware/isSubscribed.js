@@ -1,6 +1,5 @@
-import dashboard from "../view/pages/Dashboard";
+export default function isSubscribed ({next, store}) {
 
-export default function ({next, store}) {
     if (!store.getters.auth.isSubscribed) {
         return next('dashboard')
     }

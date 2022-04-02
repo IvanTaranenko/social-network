@@ -19,9 +19,10 @@ export default {
     max-width: 120rem;
     margin: 1rem auto;
     padding-top:30px;
+    color:#fff;
     text-align: center;
-    background-color: var(--color-gray-light-1 );
-    box-shadow: var(--shadow-dark);
+    background-color:#b28451  ;
+    box-shadow:0 2rem 6rem rgba(0, 0, 0, .7) ;
     min-height:50rem;
     @media only screen and (max-width: 75rem) {
         margin: 0;

@@ -1,7 +1,6 @@
-import dashboard from "../view/pages/Dashboard";
+export default function guest ({next, store}) {
 
-export default function ({next, store}) {
-    if (store.getters.auth.loggedIn || store.getters.token) {
+    if (store.getters.auth.loggedIn && store.getters.auth.token) {
         return next('dashboard')
     }
     return next()
