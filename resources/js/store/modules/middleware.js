@@ -3,7 +3,7 @@ const state = {
         loggedIn:false,
         isSubscribes:false
     },
-    token:localStorage.getItem('token' || '' )
+    token:!localStorage.getItem('token' || '' )
 }
 const actions = {
 
@@ -22,7 +22,7 @@ const getters = {
 
 
 export default {
-    namespaced:true,
+    namespaced:false,
     state,
     actions,
     mutations,

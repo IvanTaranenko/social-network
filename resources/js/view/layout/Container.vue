@@ -5,6 +5,7 @@
 
 </template>
 
+
 <script>
 
 export default {
@@ -13,7 +14,7 @@ export default {
 }
 </script>
 
-<style  lang="scss">
+<style scoped lang="scss">
 .container {
     max-width: 120rem;
     margin: 8rem auto;
